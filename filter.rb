@@ -1,5 +1,6 @@
 require 'json'
 
+print "面積,人口\n"
 while gets
   f = JSON.parse($_)
   kigo_e = f['properties']['KIGO_E']
